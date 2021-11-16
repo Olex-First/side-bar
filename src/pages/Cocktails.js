@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Reports() {
+function Cocktails() {
   return (
       <div>
           <h1 className="mainName">Cocktails</h1>
@@ -20,4 +20,4 @@ function ItemList({ items }) {
   );
 }
 
-export default Reports;
+export default Cocktails;

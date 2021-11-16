@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Products() {
+function Beers() {
   return (
       <div>
-          <h1 className="mainName">Bears</h1>
+          <h1 className="mainName">Beers</h1>
           <ItemList items={['Pilsner', 'Kozel', 'Bernard', 'Unetice', 'Staropramen', 'Hoegarden']} />
       </div>
   );
@@ -13,11 +13,11 @@ function ItemList({ items }) {
     return (
 
         <ul className="ulList">
-            {items.map((user, index) => (
-                <button className="btn btn-success me-3 " key={index}>{user}</button>
+            {items.map((item, index) => (
+                <button className="btn btn-success me-3 " key={index}>{item}</button>
             ))}
         </ul>
   );
 }
 
-export default Products;
+export default Beers;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function Snacks() {
   return (
       <div>
         <h1 className="mainName">Snacks</h1>
@@ -20,4 +20,4 @@ function ItemList({ items }) {
   );
 }
 
-export default Home;
+export default Snacks;

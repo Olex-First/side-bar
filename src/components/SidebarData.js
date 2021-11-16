@@ -10,21 +10,21 @@ export const SidebarData = [
 
   {
     title: 'Snacks',
-    path: '/',
+    path: '/snacks',
     icon: <MdOutlineFastfood />,
     cName: 'nav-text',
     list:['fries', 'nuts', 'chlebicek', 'Mozarella Sticks', 'Nachos', 'Hot-Dog']
   },
   {
     title: 'Beers',
-    path: '/products',
+    path: '/beers',
     icon: <IoBeerOutline />,
     cName: 'nav-text',
     list: ['Pilsner', 'Kozel', 'Bernard', 'Unetice', 'Staropramen', 'Hoegarden']
   },
   {
     title: 'Cocktails',
-    path: '/reports',
+    path: '/cocktails',
     icon: <FaCocktail />,
     cName: 'nav-text',
     list: ['Mojito', 'Gin&Tonic', 'Cuba Libre', 'Caipirinha', 'Pina Colada']
@@ -32,21 +32,22 @@ export const SidebarData = [
   },
   {
     title: 'HotDrinks',
-    path: '/team',
+    path: '/hotdrinks',
     icon: <MdOutlineEmojiFoodBeverage />,
     cName: 'nav-text',
+    list: ['Tea', 'Coffee', 'Hot Wine', 'Hot Apple Juice', 'Hot Chocolate']
 
   },
 
   {
     title: 'Vegan',
-    path: '/messages',
+    path: '/vegan',
     icon: <BiSpa />,
     cName: 'nav-text'
   },
   {
     title: 'Favorite',
-    path: '/support',
+    path: '/favorite',
     icon: <BiHeart />,
     cName: 'nav-text'
   }
