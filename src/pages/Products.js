@@ -3,7 +3,7 @@ import React from 'react';
 function Products() {
   return (
       <div>
-          <h1 className="mainName">Bears</h1>
+          <h1 className="mainName">Beers</h1>
           <ItemList items={['Pilsner', 'Kozel', 'Bernard', 'Unetice', 'Staropramen', 'Hoegarden']} />
       </div>
   );

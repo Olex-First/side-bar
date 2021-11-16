@@ -8,7 +8,7 @@ import Products from './pages/Products';
 
 function App() {
   return (
-      <>
+      <div className='mt-4'>
         <BrowserRouter>
           <Navbar />
           <Routes>
@@ -17,7 +17,7 @@ function App() {
             <Route path='/products' element={<Products/>} />
           </Routes>
         </BrowserRouter>
-      </>
+      </div>
   );
 }
 
